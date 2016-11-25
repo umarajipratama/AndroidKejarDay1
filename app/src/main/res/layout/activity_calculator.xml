@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <!--baris ke 1 dengan single kolom-->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:layout_span="4"
+            android:padding="30dp"
+            android:background="#F45086"
+            android:textColor="#F7FFFF"
+            android:id="@+id/resultId" />
+    </TableRow>
+
+    <!--1 baris dengan 4 kolom-->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Btn7_id"
+            android:text="7"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:padding="30dp"
+            android:onClick="btn7Clicked"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/Btn8_id"
+            android:text="8"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:onClick="btn8Clicked"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/Btn9_id"
+            android:text="9"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:onClick="btn9Clicked"/>
+
+        <Button
+            android:id="@+id/Btnperkalian_id"
+            android:text="*"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:padding="30dp"
+            android:gravity="center"
+            android:onClick="btnperkalianClicked"/>
+    </TableRow>
+
+    <!--button 4 - 6  dan pembagian-->
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Btn4_id"
+            android:text="4"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="btn4Clicked"/>
+
+        <Button
+            android:id="@+id/Btn5_id"
+            android:text="5"
+            android:textSize="20dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:padding="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btn5Clicked"/>
+
+        <Button
+            android:id="@+id/Btn6_id"
+            android:text="6"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btn6Clicked"/>
+
+        <Button
+            android:id="@+id/Btnpembagian_id"
+            android:text="/"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="btnpembagianClicked"/>
+    </TableRow>
+
+    <!--Button 1 - 3 dan modulus-->
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Btn1_id"
+            android:text="1"
+            android:textSize="20dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:padding="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="btn1Clicked" />
+
+        <Button
+            android:id="@+id/Btn2_id"
+            android:text="2"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btn2Clicked" />
+
+        <Button
+            android:id="@+id/Btn3_id"
+            android:text="3"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btn3Clicked"/>
+
+        <Button
+            android:id="@+id/Btnmodulus_id"
+            android:text="%"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:onClick="btnmodulusClicked"
+            android:gravity="center"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Btnplus_id"
+            android:text="+"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnplusClicked"
+            />
+
+        <Button
+            android:id="@+id/Btn0_id"
+            android:text="0"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btn0Clicked"
+            />
+
+        <Button
+            android:id="@+id/Btnminus_id"
+            android:text="-"
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnminusClicked"
+            />
+
+        <Button
+            android:id="@+id/Btnequals_id"
+            android:text="="
+            android:textSize="20dp"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnequalsClicked"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Btnclear_id"
+            android:textSize="20dp"
+            android:text="clear"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnclearClicked" />
+
+        <Button
+            android:id="@+id/Btnback_id"
+            android:text="back"
+            android:padding="30dp"
+            android:background="#2C2446"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:onClick="btnbackClicked"
+            android:gravity="center" />
+
+    </TableRow>
+
+
+    </TableLayout>

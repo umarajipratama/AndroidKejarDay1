@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.umarajipratama.kejar2.MainActivity">
+
+   <ImageButton
+       android:id="@+id/btn_form"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:background="#997CDF"
+       android:src="@drawable/email1"/>
+
+    <ImageButton
+        android:id="@+id/btn_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F45086"
+        android:src="@drawable/calculator" />
+
+    <ImageButton
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F9B24F"
+        android:src="@drawable/content2"/>
+
+
+        <Button
+            android:id="@+id/btn_like"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2C2446"
+            android:text="Click here if you like this app"
+            android:textColor="#fff"/>
+
+</LinearLayout>
